@@ -2567,3 +2567,38 @@ blockquote footer, blockquote small, blockquote .small {
   font-size: 2em;
 }
 
+#whats {
+  position: fixed;
+  bottom: 3%;
+  right: 2%;
+  width: 70px;
+  height: 70px;
+  transition: transform 0.4s ease;
+  z-index: 3;
+  border-radius: 50%; 
+  box-shadow: 0px 0px 15px 5px rgba(255, 255, 255, 0.8);
+  background-color: transparent; 
+}
+
+#whats:hover {
+  transform: scale(1.10);
+  filter: brightness(110%) saturate(120%);
+}
+
+#portifo {
+  position: fixed;
+  bottom: 16%;
+  right: 2%;
+  width: 70px;
+  height: 70px;
+  transition: transform 0.4s ease;
+  z-index: 3;
+  border-radius: 50%; /* Faz a imagem ficar completamente redonda */
+  box-shadow: 0px 0px 15px 5px rgba(255, 255, 255, 0.8); /* Sombra branca ao redor */
+  background-color: transparent; 
+}
+
+#portifo:hover {
+  transform: scale(1.10);
+  filter: brightness(110%) saturate(120%);
+}
