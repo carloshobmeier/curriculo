@@ -1091,35 +1091,82 @@ body > footer .copyrights {
 
 /*Skill 1*/
 .skill-percentage.skill-1 {
-  width: 88%;
+  width: 10%;
 }
 /*Skill 2*/
 .skill-percentage.skill-2 {
-  width: 75%;
+  width: 20%;
 }
 /*Skill 3*/
 .skill-percentage.skill-3 {
-  width: 60%;
+  width: 30%;
 }
 /*Skill 4*/
 .skill-percentage.skill-4 {
-  width: 95%;
+  width: 40%;
 }
 /*Skill 5*/
 .skill-percentage.skill-5 {
-  width: 75%;
+  width: 50%;
 }
 /*Skill 6*/
 .skill-percentage.skill-6 {
-  width: 92%;
+  width: 60%;
 }
 /*Skill 7*/
 .skill-percentage.skill-7 {
-  width: 60%;
+  width: 70%;
 }
 /*Skill 8*/
 .skill-percentage.skill-8 {
-  width: 77%;
+  width: 80%;
+}
+/*Skill 8*/
+.skill-percentage.skill-9 {
+  width: 90%;
+}
+/*Skill 8*/
+.skill-percentage.skill-10 {
+  width: 5%;
+}
+/*Skill 8*/
+.skill-percentage.skill-100 {
+  width: 100%;
+}
+/*Skill 8*/
+.skill-percentage.skill-11 {
+  width: 15%;
+}
+/*Skill 8*/
+.skill-percentage.skill-12 {
+  width: 25%;
+}/*Skill 8*/
+.skill-percentage.skill-13 {
+  width: 35%;
+}
+/*Skill 8*/
+.skill-percentage.skill-14 {
+  width: 45%;
+}
+/*Skill 8*/
+.skill-percentage.skill-15 {
+  width: 55%;
+}
+/*Skill 8*/
+.skill-percentage.skill-16 {
+  width: 65%;
+}
+/*Skill 8*/
+.skill-percentage.skill-17 {
+  width: 75%;
+}
+/*Skill 8*/
+.skill-percentage.skill-18 {
+  width: 85%;
+}
+/*Skill 8*/
+.skill-percentage.skill-19 {
+  width: 95%;
 }
 /* Skills */
 
@@ -2576,7 +2623,7 @@ blockquote footer, blockquote small, blockquote .small {
   transition: transform 0.4s ease;
   z-index: 3;
   border-radius: 50%; 
-  box-shadow: 0px 0px 15px 5px rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 0px 8px 2px rgba(255, 255, 255, 0.604);
   background-color: transparent; 
 }
 
@@ -2594,11 +2641,17 @@ blockquote footer, blockquote small, blockquote .small {
   transition: transform 0.4s ease;
   z-index: 3;
   border-radius: 50%; /* Faz a imagem ficar completamente redonda */
-  box-shadow: 0px 0px 15px 5px rgba(255, 255, 255, 0.8); /* Sombra branca ao redor */
+  box-shadow: 0px 0px 8px 2px rgba(255, 255, 255, 0.607); /* Sombra branca ao redor */
   background-color: transparent; 
 }
 
 #portifo:hover {
   transform: scale(1.10);
   filter: brightness(110%) saturate(120%);
+}
+
+.coluna_customizada {
+  width: 20%; /* 100% / 5 */
+  float: left;
+  padding: 0 15px; /* Ajuste conforme necessário */
 }
